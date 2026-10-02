@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Amrendra Singh: GPU kernels, ComfyUI nodes, local AI tooling, hypervisors" src="assets/banner-light.svg" width="100%">
+  <img alt="IxMxAMAR: GPU kernels, ComfyUI nodes, local AI tooling, hypervisors" src="assets/banner-light.svg" width="100%">
 </picture>
 
 # Hi, I'm Amrendra Singh
