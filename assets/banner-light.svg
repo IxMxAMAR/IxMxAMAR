@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Amrendra Singh: GPU kernels, ComfyUI nodes, local AI, hypervisors">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="IxMxAMAR: GPU kernels, ComfyUI nodes, local AI, hypervisors">
 <rect x="1" y="1" width="1278" height="318" rx="18" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
-<rect x="64" y="86" width="5" height="148" rx="2.5" fill="#2a78d6"/>
-<text x="92" y="108" font-family="ui-monospace, 'Cascadia Code', Consolas, 'SF Mono', monospace" font-size="18" fill="#818b98">@IxMxAMAR</text>
-<text x="90" y="170" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#1f2328">Amrendra Singh</text>
-<text x="92" y="212" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="23" fill="#59636e">GPU kernels · ComfyUI nodes · local AI tooling · hypervisors</text>
-<text x="92" y="250" font-family="ui-monospace, 'Cascadia Code', Consolas, 'SF Mono', monospace" font-size="16" fill="#2a78d6">now: hand-written attention kernels for the RX 9070 XT</text>
+<rect x="64" y="96" width="5" height="136" rx="2.5" fill="#2a78d6"/>
+<text x="90" y="152" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#1f2328">IxMxAMAR</text>
+<text x="92" y="194" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="23" fill="#59636e">GPU kernels · ComfyUI nodes · local AI tooling · hypervisors</text>
+<text x="92" y="230" font-family="ui-monospace, 'Cascadia Code', Consolas, 'SF Mono', monospace" font-size="16" fill="#2a78d6">now: hand-written attention kernels for the RX 9070 XT</text>
 <rect x="940" y="42" width="15" height="15" rx="3" fill="#2a78d6" fill-opacity="1.00"/>
 <rect x="960" y="42" width="15" height="15" rx="3" fill="none" stroke="#d0d7de" stroke-width="1"/>
 <rect x="980" y="42" width="15" height="15" rx="3" fill="none" stroke="#d0d7de" stroke-width="1"/>

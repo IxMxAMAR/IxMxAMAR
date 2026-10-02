@@ -3,7 +3,7 @@
   <img alt="IxMxAMAR: GPU kernels, ComfyUI nodes, local AI tooling, hypervisors" src="assets/banner-light.svg" width="100%">
 </picture>
 
-# Hi, I'm Amrendra Singh
+# Hi, I'm IxMxAMAR
 
 I like making generative models run faster, and run on hardware people actually own. That means
 hand-written attention kernels for AMD's RX 9070 XT, ComfyUI node packs, one-click RunPod images
@@ -65,8 +65,8 @@ and tools for running LLMs locally. On the side I write hypervisors.
 ## 📊 Stats
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=IxMxAMAR&show_icons=true&hide_rank=true&custom_title=Amrendra%20Singh%27s%20GitHub%20stats&hide_border=true&disable_animations=true&theme=github_dark&bg_color=0d1117">
-  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=IxMxAMAR&show_icons=true&hide_rank=true&custom_title=Amrendra%20Singh%27s%20GitHub%20stats&hide_border=true&disable_animations=true">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=IxMxAMAR&show_icons=true&hide_rank=true&hide_border=true&disable_animations=true&theme=github_dark&bg_color=0d1117">
+  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=IxMxAMAR&show_icons=true&hide_rank=true&hide_border=true&disable_animations=true">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=IxMxAMAR&layout=compact&hide_border=true&disable_animations=true&theme=github_dark&bg_color=0d1117">
