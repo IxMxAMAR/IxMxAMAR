@@ -44,6 +44,7 @@ and tools for running LLMs locally. On the side I write hypervisors.
 | [ComfyUI-Ultimate-ST](https://github.com/IxMxAMAR/ComfyUI-Ultimate-ST) | ComfyUI-Ultimate plus SillyTavern in one pod image. | ![stars](https://img.shields.io/github/stars/IxMxAMAR/ComfyUI-Ultimate-ST?style=flat-square&label=%E2%98%85) |
 | [runpod-wan22-serverless](https://github.com/IxMxAMAR/runpod-wan22-serverless) | Serverless Wan 2.2 14B text-to-video and image-to-video endpoints, with a desktop client. | ![stars](https://img.shields.io/github/stars/IxMxAMAR/runpod-wan22-serverless?style=flat-square&label=%E2%98%85) |
 | [ComfyUI-Serverless-FaceSwap](https://github.com/IxMxAMAR/ComfyUI-Serverless-FaceSwap) | ComfyUI face-swap workflows served as a RunPod API. | ![stars](https://img.shields.io/github/stars/IxMxAMAR/ComfyUI-Serverless-FaceSwap?style=flat-square&label=%E2%98%85) |
+| [rigma-runpod](https://github.com/IxMxAMAR/rigma-runpod) | Rigma on a RunPod GPU pod: one port behind the proxy, a stock-image template that installs Rigma at boot, and a CI-built image. | ![stars](https://img.shields.io/github/stars/IxMxAMAR/rigma-runpod?style=flat-square&label=%E2%98%85) |
 
 ## 🖥️ Local AI tooling
 
