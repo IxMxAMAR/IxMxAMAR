@@ -18,6 +18,12 @@ and tools for running LLMs locally. On the side I write hypervisors.
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![ComfyUI](https://img.shields.io/badge/ComfyUI-1f2328?style=flat-square)
 
+## ⚡ GPU and performance
+
+| Project | What it is | |
+|---|---|---|
+| [SageAttention-RDNA4](https://github.com/IxMxAMAR/SageAttention-RDNA4) | SageAttention for the RX 9070 / 9070 XT, with hand-written HIP attention kernels for fp16 and bf16. Up to 2.3× faster than the existing gfx12 port, and a drop-in for ComfyUI. | ![stars](https://img.shields.io/github/stars/IxMxAMAR/SageAttention-RDNA4?style=flat-square&label=%E2%98%85) |
+
 ## 🔬 Research and innovation
 
 I keep a living compilation of research notes, papers, and ideas, organized by domain.
@@ -25,12 +31,6 @@ I keep a living compilation of research notes, papers, and ideas, organized by d
 | Project | What it is | |
 |---|---|---|
 | [Research and Innovation Compilation](https://github.com/IxMxAMAR/Research-and-Innovation-Compilation-of-my-Ideas) | A growing collection of research papers and ideas. First entry: *The x16 Ceiling*, on memory bandwidth over PCI Express. | ![stars](https://img.shields.io/github/stars/IxMxAMAR/Research-and-Innovation-Compilation-of-my-Ideas?style=flat-square&label=%E2%98%85) |
-
-## ⚡ GPU and performance
-
-| Project | What it is | |
-|---|---|---|
-| [SageAttention-RDNA4](https://github.com/IxMxAMAR/SageAttention-RDNA4) | SageAttention for the RX 9070 / 9070 XT, with hand-written HIP attention kernels for fp16 and bf16. Up to 2.3× faster than the existing gfx12 port, and a drop-in for ComfyUI. | ![stars](https://img.shields.io/github/stars/IxMxAMAR/SageAttention-RDNA4?style=flat-square&label=%E2%98%85) |
 
 ## 🧩 ComfyUI nodes
 
