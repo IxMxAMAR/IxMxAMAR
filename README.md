@@ -30,7 +30,7 @@ I keep a living compilation of research notes, papers, and ideas, organized by d
 
 | Project | What it is | |
 |---|---|---|
-| [Research and Innovation Compilation](https://github.com/IxMxAMAR/Research-and-Innovation-Compilation-of-my-Ideas) | A growing collection of research papers and ideas. First entry: *The x16 Ceiling*, on memory bandwidth over PCI Express. | ![stars](https://img.shields.io/github/stars/IxMxAMAR/Research-and-Innovation-Compilation-of-my-Ideas?style=flat-square&label=%E2%98%85) |
+| [Research and Innovation](https://github.com/IxMxAMAR/Research-and-Innovation) | A growing collection of research papers and ideas. First entry: *The x16 Ceiling*, on memory bandwidth over PCI Express. | ![stars](https://img.shields.io/github/stars/IxMxAMAR/Research-and-Innovation?style=flat-square&label=%E2%98%85) |
 
 ## 🧩 ComfyUI nodes
 
