@@ -18,6 +18,14 @@ and tools for running LLMs locally. On the side I write hypervisors.
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![ComfyUI](https://img.shields.io/badge/ComfyUI-1f2328?style=flat-square)
 
+## 🔬 Research and innovation
+
+I keep a living compilation of research notes, papers, and ideas, organized by domain.
+
+| Project | What it is | |
+|---|---|---|
+| [Research and Innovation Compilation](https://github.com/IxMxAMAR/Research-and-Innovation-Compilation-of-my-Ideas) | A growing collection of research papers and ideas. First entry: *The x16 Ceiling*, on memory bandwidth over PCI Express. | ![stars](https://img.shields.io/github/stars/IxMxAMAR/Research-and-Innovation-Compilation-of-my-Ideas?style=flat-square&label=%E2%98%85) |
+
 ## ⚡ GPU and performance
 
 | Project | What it is | |
