@@ -11,7 +11,7 @@
 
 # Hi, I'm IxMxAMAR
 
-I like making generative models run faster, and run on hardware people actually own. That means hand-written attention kernels for AMD's RX 9070 XT, ComfyUI node packs, one-click RunPod images, and tools for running LLMs locally. On the side, I write hypervisors.
+I like making generative models run faster, and run on hardware people actually own. That means custom attention kernels for AMD's RX 9070 XT, ComfyUI node packs, one-click RunPod images, and tools for running LLMs locally. On the side, I write hypervisors.
 
 ---
 
@@ -24,13 +24,13 @@ I like making generative models run faster, and run on hardware people actually 
 ### 🚀 [SageAttention-RDNA4](https://github.com/IxMxAMAR/SageAttention-RDNA4)
 > **Quantized Attention Kernels for AMD RDNA4 (`gfx1201` / RX 9070 & 9070 XT)**
 
-- **Hand-written HIP Attention Kernels**: Custom FP16 and BF16 attention implementations designed specifically for RDNA4 compute units and memory hierarchy.
-- **Fused Video Model Workloads**: Handles native fused Q/K/V tensors sent by modern video diffusion architectures (Wan 2.2, HunyuanVideo, LTX-Video).
-- **Extreme Speedup**: Up to **2.3× faster** than generic gfx12 ports, matching **0.87–0.94×** execution latency over upstream PR #368 across production batch sizes.
-- **Drop-in ComfyUI Integration**: Seamless plug-and-play drop-in for local diffusion inference pipelines without recompilation hurdles.
+- **Custom HIP Attention Kernels**: fp16 and bf16 kernels for head_dim 128 on RDNA4 (int8 Q·K in fp16, fp8 in bf16), plus a HIP quantization step, so nothing compiles on first use.
+- **Faster than the gfx12 Port**: **1.5–2.0×** faster than SageAttention PR #368 on causal attention and **1.06–1.3×** on non-causal in fp16 (**2.2×** and **1.3×** in bf16), measured over the full call.
+- **Fused Q/K/V Views**: Serves the strided q/k/v views that fused-projection video models send, without copies. Run end to end in Krea2 and MiniMax-H3.
+- **Drop-in for ComfyUI**: Prebuilt Windows wheels for PyTorch 2.13 and 2.14, picked up by `--use-sage-attention`. Latest: **v0.5.0**, with a 6× faster first call.
 
 ```
-Stack: ROCm / HIP • C++ • PyTorch • RDNA4 gfx1201 • Video Diffusion
+Stack: ROCm / HIP • C++ • PyTorch • RDNA4 gfx1201 • int8 / fp8
 ```
 <p align="right"><a href="https://github.com/IxMxAMAR/SageAttention-RDNA4"><img src="https://img.shields.io/github/stars/IxMxAMAR/SageAttention-RDNA4?style=flat-square&label=%E2%98%85%20Stars" alt="Stars"></a></p>
 
@@ -98,7 +98,7 @@ Stack: C • x86_64 ASM • UEFI / EDK2 • Intel VT-x • EPT Paging
 
 | Project | What it is | |
 |---|---|---|
-| [SageAttention-RDNA4](https://github.com/IxMxAMAR/SageAttention-RDNA4) | SageAttention for the RX 9070 / 9070 XT (`gfx1201`), with hand-written HIP attention kernels for fp16 and bf16. Up to 2.3× faster than generic gfx12 ports, handling fused q/k/v views for video models, and a drop-in for ComfyUI. | ![stars](https://img.shields.io/github/stars/IxMxAMAR/SageAttention-RDNA4?style=flat-square&label=%E2%98%85) |
+| [SageAttention-RDNA4](https://github.com/IxMxAMAR/SageAttention-RDNA4) | SageAttention for the RX 9070 / 9070 XT (`gfx1201`), with custom HIP attention kernels for fp16 and bf16. 1.06–2.2× faster than SageAttention PR #368's gfx12 port over the full call, handling fused q/k/v views for video models, and a drop-in for ComfyUI. | ![stars](https://img.shields.io/github/stars/IxMxAMAR/SageAttention-RDNA4?style=flat-square&label=%E2%98%85) |
 | [bitsandbytes](https://github.com/IxMxAMAR/bitsandbytes) | Accessible large language models via k-bit quantization for PyTorch with ROCm / AMD GPU acceleration enhancements. | ![stars](https://img.shields.io/github/stars/IxMxAMAR/bitsandbytes?style=flat-square&label=%E2%98%85) |
 | [comfyui-mossdype](https://github.com/IxMxAMAR/comfyui-mossdype) | DyPE-M dynamic position extrapolation for MOSS-Image — render past the 4MP training range without retraining. | ![stars](https://img.shields.io/github/stars/IxMxAMAR/comfyui-mossdype?style=flat-square&label=%E2%98%85) |
 
